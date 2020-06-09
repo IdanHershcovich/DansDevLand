@@ -7,9 +7,10 @@ import instagramSquare from './social-1_square-instagram.svg';
 import linkedin1 from './social-1_logo-linkedin.svg';
 import linkedinRound from './social-1_round-linkedin.svg';
 import linkedinSquare from './social-1_square-linkedin.svg';
+import Drexel from './drexel-university.svg'
 
 
 
 
 
-export{github1, githubRound, githubSquare, instagram1, instagramRound, instagramSquare, linkedin1, linkedinRound, linkedinSquare}
+export{github1, githubRound, githubSquare, instagram1, instagramRound, instagramSquare, linkedin1, linkedinRound, linkedinSquare, Drexel}

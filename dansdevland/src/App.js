@@ -5,17 +5,12 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import Footer from "./Components/Footer"
 import dummyText from "./DummyText";
+import Timeline from "./Components/Timeline"
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <Section
-          title="Home"
-          subtitle={dummyText}
-          dark={true}
-          id="home"
-        />
         <Section
           title="About"
           subtitle={dummyText}
@@ -24,9 +19,9 @@ class App extends Component {
         />
         <Section
           title="Projects"
-          subtitle={dummyText}
+          subtitle={<Timeline/>}
           dark={true}
-          id="project"
+          id="projects"
         />
         <Section
           title="Experience"

@@ -37,7 +37,7 @@ export default class Navbar extends Component {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-150}
               duration={300}
             >Projects</Link>
             <Link className="nav-item"
@@ -45,7 +45,7 @@ export default class Navbar extends Component {
               to="experience"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-150}
               duration={300}
             >Experience</Link>
             <Link className="nav-item"
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
               to="resume"
               spy={true}
               smooth={true}
-              offset={-350}
+              offset={-150}
               duration={300}
             >Resume</Link>
             <Link className="nav-item"
@@ -61,7 +61,7 @@ export default class Navbar extends Component {
               to="blog"
               spy={true}
               smooth={true}
-              offset={-350}
+              offset={-150}
               duration={300}
             >Blog</Link>
             <Link className="nav-item"
@@ -69,7 +69,7 @@ export default class Navbar extends Component {
               to="photography"
               spy={true}
               smooth={true}
-              offset={-350}
+              offset={-150}
               duration={300}
             >Photography</Link>
             <Link className="nav-item"
@@ -77,7 +77,7 @@ export default class Navbar extends Component {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-350}
+              offset={-150}
               duration={300}
             >Contact</Link>
           </ul>
