@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/dansdevland/static/css/main.1a83a305.chunk.css",
-    "main.js": "/portfolio/dansdevland/static/js/main.e8a36eaf.chunk.js",
-    "main.js.map": "/portfolio/dansdevland/static/js/main.e8a36eaf.chunk.js.map",
+    "main.js": "/portfolio/dansdevland/static/js/main.3661c739.chunk.js",
+    "main.js.map": "/portfolio/dansdevland/static/js/main.3661c739.chunk.js.map",
     "runtime-main.js": "/portfolio/dansdevland/static/js/runtime-main.0eeb08b7.js",
     "runtime-main.js.map": "/portfolio/dansdevland/static/js/runtime-main.0eeb08b7.js.map",
-    "static/js/2.ee625406.chunk.js": "/portfolio/dansdevland/static/js/2.ee625406.chunk.js",
-    "static/js/2.ee625406.chunk.js.map": "/portfolio/dansdevland/static/js/2.ee625406.chunk.js.map",
+    "static/js/2.4f35d70b.chunk.js": "/portfolio/dansdevland/static/js/2.4f35d70b.chunk.js",
+    "static/js/2.4f35d70b.chunk.js.map": "/portfolio/dansdevland/static/js/2.4f35d70b.chunk.js.map",
     "index.html": "/portfolio/dansdevland/index.html",
-    "precache-manifest.d31770fe086a2b9456e9201cf44cc15c.js": "/portfolio/dansdevland/precache-manifest.d31770fe086a2b9456e9201cf44cc15c.js",
+    "precache-manifest.61623f7e2a3beccdb83f8c98f9155ea2.js": "/portfolio/dansdevland/precache-manifest.61623f7e2a3beccdb83f8c98f9155ea2.js",
     "service-worker.js": "/portfolio/dansdevland/service-worker.js",
     "static/css/main.1a83a305.chunk.css.map": "/portfolio/dansdevland/static/css/main.1a83a305.chunk.css.map",
-    "static/js/2.ee625406.chunk.js.LICENSE.txt": "/portfolio/dansdevland/static/js/2.ee625406.chunk.js.LICENSE.txt",
+    "static/js/2.4f35d70b.chunk.js.LICENSE.txt": "/portfolio/dansdevland/static/js/2.4f35d70b.chunk.js.LICENSE.txt",
     "static/media/drexel-university.svg": "/portfolio/dansdevland/static/media/drexel-university.768f290b.svg",
     "static/media/logo.svg": "/portfolio/dansdevland/static/media/logo.5d5d9eef.svg",
     "static/media/social-1_logo-github.svg": "/portfolio/dansdevland/static/media/social-1_logo-github.6f759161.svg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0eeb08b7.js",
-    "static/js/2.ee625406.chunk.js",
+    "static/js/2.4f35d70b.chunk.js",
     "static/css/main.1a83a305.chunk.css",
-    "static/js/main.e8a36eaf.chunk.js"
+    "static/js/main.3661c739.chunk.js"
   ]
 }
