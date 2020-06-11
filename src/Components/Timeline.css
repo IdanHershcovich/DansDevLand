@@ -229,7 +229,7 @@
 
 .vertical-timeline-element-content .vertical-timeline-element-date {
     float: left;
-    padding: .8em 0;
+    padding: .8em 8px;
     opacity: .7
 }
 

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import './Timeline.css';
 import { Drexel } from '../Media/Assets';
+import Cap from '../Media/grad_cap.png'
 import StratisIcon from '../Media/stratis.png';
 import VertexIcon from '../Media/vertex.png';
 
@@ -16,7 +17,7 @@ class Timeline extends Component {
                     date="June 2020"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={
-                        <img src={Drexel} class='vertical-timeline-element-icon svg' />
+                        <img src={Cap} class='vertical-timeline-element-icon svg' />
                     }
                 >
                     <h3 className="vertical-timeline-element-title">Finished Undergraduate Studies at Drexel University</h3>
@@ -57,7 +58,7 @@ class Timeline extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Software Developer</h4>
                     <h5 className="vertical-timeline-element-subtitle">Philadelphia, PA</h5>
                     <p>
-                        Developer at AI analytics company working on multiple client-facing projects and internal projects.  
+                        Developer at AI analytics company working on multiple client-facing projects and internal software tools.  
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -74,7 +75,7 @@ class Timeline extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Software Engineer, IOT</h4>
                     <h5 className="vertical-timeline-element-subtitle">Philadelphia, PA</h5>
                     <p>
-                        IoT platform built for complex multi-family apartments and student housing
+                        IoT platform built for complex multi-family apartments and student housing.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -91,12 +92,15 @@ class Timeline extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Web Developer</h4>
                     <h5 className="vertical-timeline-element-subtitle">Philadelphia, PA</h5>
                     <p>
-                        Involved in the team creating applications and services for medicine students to use during their time at Drexel
+                        Involved in the team creating applications and services for medicine students to use during their time at Drexel.
                     </p>
                 </VerticalTimelineElement>
                 
                 <VerticalTimelineElement
                     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                    icon={
+                        <img src={Drexel} class='vertical-timeline-element-icon svg' />
+                    }
                 />
             </VerticalTimeline>
         )

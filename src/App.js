@@ -5,7 +5,12 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import Footer from "./Components/Footer"
 import dummyText from "./DummyText";
+import About from "./Components/About"
 import Timeline from "./Components/Timeline"
+import Cards from "./Components/Cards"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 class App extends Component {
   render() {
     return (
@@ -13,28 +18,28 @@ class App extends Component {
         <Navbar />
         <Section
           title="About"
-          subtitle={dummyText}
+          subtitle={<About/>}
           dark={false}
           id="about"
         />
         <Section
           title="Projects"
-          subtitle={<Timeline/>}
-          dark={true}
+          subtitle={<Cards/>}
+          dark={false}
           id="projects"
         />
         <Section
           title="Experience"
-          subtitle={dummyText}
-          dark={false}
+          subtitle={<Timeline/>}
+          dark={true}
           id="experience"
         />
-        <Section
+        {/* <Section
           title="Resume"
           subtitle={dummyText}
           dark={true}
           id="resume"
-        />
+        /> */}
         <Section
           title="Blog"
           subtitle={dummyText}

@@ -2,10 +2,12 @@ import React from "react";
 import "./Footer.css"
 import {github1, instagram1, linkedin1} from "../Media/Assets"
 
-export default function Section({ title, subtitle, dark, id }) {
+export default function Footer() {
     return (
         <footer id="contact" class="site-footer" role="contentinfo">
             <div class="social-wrapper">
+                {/* TODO: create email css class */}
+              <h2 className="email" >idanhershcovich@gmail.com</h2>
                 <ul>
                     <li>
                         <a href="https://github.com/IdanHershcovich/" target="_blank"> 

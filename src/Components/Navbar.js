@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll"
 import logo from "../logo.svg";
+import ResumePDF from "./ResumePDF";
 
 export default class Navbar extends Component {
 
@@ -50,14 +51,6 @@ export default class Navbar extends Component {
             >Experience</Link>
             <Link className="nav-item"
               activeClass="active"
-              to="resume"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={300}
-            >Resume</Link>
-            <Link className="nav-item"
-              activeClass="active"
               to="blog"
               spy={true}
               smooth={true}
@@ -80,6 +73,8 @@ export default class Navbar extends Component {
               offset={-150}
               duration={300}
             >Contact</Link>
+            
+            <ResumePDF/>
           </ul>
         </div>
       </nav>
