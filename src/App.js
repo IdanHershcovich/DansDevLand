@@ -11,11 +11,10 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Switch>
+
           <Route exact path="/" component={Home} />
           
-          <Route component={() => (<div>404 Not found </div>)} />
-        </Switch>
+
       </BrowserRouter>
      
       
