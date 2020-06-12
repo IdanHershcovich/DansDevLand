@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/dansdevland.com/static/css/main.3206d1d5.chunk.css",
-    "main.js": "/dansdevland.com/static/js/main.ffc0558a.chunk.js",
-    "main.js.map": "/dansdevland.com/static/js/main.ffc0558a.chunk.js.map",
+    "main.js": "/dansdevland.com/static/js/main.551a5b8e.chunk.js",
+    "main.js.map": "/dansdevland.com/static/js/main.551a5b8e.chunk.js.map",
     "runtime-main.js": "/dansdevland.com/static/js/runtime-main.c73fc7f9.js",
     "runtime-main.js.map": "/dansdevland.com/static/js/runtime-main.c73fc7f9.js.map",
     "static/css/2.af3c1da9.chunk.css": "/dansdevland.com/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.75e8fe41.chunk.js": "/dansdevland.com/static/js/2.75e8fe41.chunk.js",
-    "static/js/2.75e8fe41.chunk.js.map": "/dansdevland.com/static/js/2.75e8fe41.chunk.js.map",
+    "static/js/2.5ba7f5ef.chunk.js": "/dansdevland.com/static/js/2.5ba7f5ef.chunk.js",
+    "static/js/2.5ba7f5ef.chunk.js.map": "/dansdevland.com/static/js/2.5ba7f5ef.chunk.js.map",
     "index.html": "/dansdevland.com/index.html",
-    "precache-manifest.ad2a0980e178402219d29c4d8bd75bed.js": "/dansdevland.com/precache-manifest.ad2a0980e178402219d29c4d8bd75bed.js",
+    "precache-manifest.954ee8030b69e5a6ddf1b5b2de6b836d.js": "/dansdevland.com/precache-manifest.954ee8030b69e5a6ddf1b5b2de6b836d.js",
     "service-worker.js": "/dansdevland.com/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/dansdevland.com/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.3206d1d5.chunk.css.map": "/dansdevland.com/static/css/main.3206d1d5.chunk.css.map",
-    "static/js/2.75e8fe41.chunk.js.LICENSE.txt": "/dansdevland.com/static/js/2.75e8fe41.chunk.js.LICENSE.txt",
+    "static/js/2.5ba7f5ef.chunk.js.LICENSE.txt": "/dansdevland.com/static/js/2.5ba7f5ef.chunk.js.LICENSE.txt",
     "static/media/Clustering.png": "/dansdevland.com/static/media/Clustering.edf66917.png",
     "static/media/HolyTesters.png": "/dansdevland.com/static/media/HolyTesters.254c2659.png",
     "static/media/Idan_Hershcovich_2020.pdf": "/dansdevland.com/static/media/Idan_Hershcovich_2020.5a191a69.pdf",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.c73fc7f9.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.75e8fe41.chunk.js",
+    "static/js/2.5ba7f5ef.chunk.js",
     "static/css/main.3206d1d5.chunk.css",
-    "static/js/main.ffc0558a.chunk.js"
+    "static/js/main.551a5b8e.chunk.js"
   ]
 }

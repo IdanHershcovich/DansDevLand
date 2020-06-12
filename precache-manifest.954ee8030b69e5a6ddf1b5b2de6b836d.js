@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4896a95d7c33b82d7abb143a33220da2",
+    "revision": "cc6169f3e19b0e459324bd20963bb7bc",
     "url": "/dansdevland.com/index.html"
   },
   {
-    "revision": "68e9f897251430eff90f",
+    "revision": "749627c16f5f29c6eab8",
     "url": "/dansdevland.com/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "5004403b3d42aaae7d10",
+    "revision": "1abbbcb3433248ba1470",
     "url": "/dansdevland.com/static/css/main.3206d1d5.chunk.css"
   },
   {
-    "revision": "68e9f897251430eff90f",
-    "url": "/dansdevland.com/static/js/2.75e8fe41.chunk.js"
+    "revision": "749627c16f5f29c6eab8",
+    "url": "/dansdevland.com/static/js/2.5ba7f5ef.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/dansdevland.com/static/js/2.75e8fe41.chunk.js.LICENSE.txt"
+    "url": "/dansdevland.com/static/js/2.5ba7f5ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5004403b3d42aaae7d10",
-    "url": "/dansdevland.com/static/js/main.ffc0558a.chunk.js"
+    "revision": "1abbbcb3433248ba1470",
+    "url": "/dansdevland.com/static/js/main.551a5b8e.chunk.js"
   },
   {
     "revision": "78a291d0b83a8cbadd23",
