@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll"
-import logo from "../logo.svg";
 import ResumePDF from "./ResumePDF";
+import IH_Logo from "../Media/ih_logo.png"
 
 export default class Navbar extends Component {
 
@@ -15,7 +15,7 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <img
-            src={logo}
+            src={IH_Logo}
             className="nav-logo"
             alt="Logo."
             onClick={this.scrollToTop}

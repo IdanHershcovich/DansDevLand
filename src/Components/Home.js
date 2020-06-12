@@ -23,35 +23,29 @@ class Home extends Component {
             id="about"
           />
           <Section
+            title="Experience"
+            subtitle={<Timeline/>}
+            dark={true}
+            id="experience"
+          />
+          <Section
             title="Recent Projects"
             subtitle={<Cards/>}
             dark={false}
             id="projects"
           />
           <Section
-            title="Experience"
-            subtitle={<Timeline/>}
-            dark={true}
-            id="experience"
-          />
-          {/* <Section
-            title="Resume"
-            subtitle={dummyText}
-            dark={true}
-            id="resume"
-          /> */}
-          <Section
             title="Blog"
             subtitle={dummyText}
             dark={true}
             id="blog"
           />
-          <Section
+          {/* <Section
             title="Photography"
             subtitle={dummyText}
             dark={true}
             id="photography"
-          />
+          /> */}
           <Footer
             id="contact"
           />

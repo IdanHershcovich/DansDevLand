@@ -13,7 +13,9 @@ export default class Cards extends Component {
 
                     <CardDeck>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={Stop} />
+                        <a href="https://github.com/IdanHershcovich/stop_game">
+                            <Card.Img variant="top" src={Stop}/>
+                        </a>
                             <Card.Body>
                                 <Card.Title>Stop! Game</Card.Title>
                                 <Card.Text>
@@ -31,9 +33,10 @@ export default class Cards extends Component {
                             </Card.Body>
                         </Card>
 
-
                         <Card style={{ width: '18rem' }}>
+                        <a href="https://github.com/IdanHershcovich/cs383/tree/master/HW2-Clustering">
                             <Card.Img variant="top" src={Clustering} />
+                        </a>
                             <Card.Body>
                                 <Card.Title>K-Means Clustering</Card.Title>
                                 <Card.Text>
@@ -53,7 +56,9 @@ export default class Cards extends Component {
 
 
                         <Card style={{ width: '18rem' }}>
+                        <a href="https://gitlab.com/yunatatski/holy-tester-backup">
                             <Card.Img variant="top" src={HolyTesters} />
+                        </a>
                             <Card.Body>
                                 <Card.Title>Holy Testers</Card.Title>
                                 <Card.Text>
