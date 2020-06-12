@@ -24,7 +24,7 @@ class Timeline extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Philadelphia, PA</h4>
                     <p>
                         Bachelor's degree in Computer Science with a concentration in Game Development.
-                        GPA: 3.30
+                        GPA: 3.10
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -97,6 +97,7 @@ class Timeline extends Component {
                 </VerticalTimelineElement>
                 
                 <VerticalTimelineElement
+                    date="Started College - September 2015"
                     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                     icon={
                         <img src={Drexel} class='vertical-timeline-element-icon svg' />
