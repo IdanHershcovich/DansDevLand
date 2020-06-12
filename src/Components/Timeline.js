@@ -58,7 +58,7 @@ class Timeline extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Software Developer</h4>
                     <h5 className="vertical-timeline-element-subtitle">Philadelphia, PA</h5>
                     <p>
-                        Developer at AI analytics company working on multiple client-facing projects and internal software tools.  
+                        Developer at an AI analytics company working on multiple client-facing projects and internal software tools.  
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
