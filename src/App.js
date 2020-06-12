@@ -8,6 +8,8 @@ import dummyText from "./DummyText";
 import About from "./Components/About"
 import Timeline from "./Components/Timeline"
 import Cards from "./Components/Cards"
+import { BrowserRouter as Router} from 'react-router-dom';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
