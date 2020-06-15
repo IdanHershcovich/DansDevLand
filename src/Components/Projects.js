@@ -5,7 +5,7 @@ import Clustering from "../Media/Clustering.png"
 import HolyTesters from "../Media/HolyTesters.png"
 
 
-export default class Cards extends Component {
+export default class Projects extends Component {
     render() {
         return (
             <div>
@@ -77,6 +77,9 @@ export default class Cards extends Component {
                         </Card>
 
                     </CardDeck>
+                    <div style={{textAlign:'right'}}> 
+                    <a href="hhttps://github.com/IdanHershcovich" > More Projects and Coursework on my GitHub </a>
+                    </div>
                 </div>
 
                 <div>

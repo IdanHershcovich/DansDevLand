@@ -3,12 +3,12 @@ import "../App.css";
 import Navbar from "./Navbar";
 import Section from "./Section";
 import Footer from "./Footer"
-import dummyText from "../DummyText";
 import About from "./About"
 import Timeline from "./Timeline"
-import Cards from "./Cards"
+import Projects from "./Projects"
+import Blog from "./Blog"
 
-
+// Colors: #fabea8 and #30132c
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Home extends Component {
@@ -30,13 +30,13 @@ class Home extends Component {
           />
           <Section
             title="Recent Projects"
-            subtitle={<Cards/>}
+            subtitle={<Projects/>}
             dark={false}
             id="projects"
           />
           <Section
             title="Blog"
-            subtitle={dummyText}
+            subtitle={<Blog/>}
             dark={true}
             id="blog"
           />
@@ -50,8 +50,6 @@ class Home extends Component {
             id="contact"
           />
         </div>
-     
-      
     );
   }
 }
