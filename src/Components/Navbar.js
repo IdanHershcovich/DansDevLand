@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll"
-import ResumePDF from "./ResumePDF";
+import "./Navbar.css"
 import IH_Logo from "../Media/ih_logo.png"
 import Pdf from "../Media/Idan_Hershcovich_2020.pdf";
 
@@ -14,12 +14,10 @@ export default class Navbars extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 100 ? "transparent" : "light";
+      const isTop = window.scrollY < 100 ? "transparent" : "#543337";
       if (isTop !== this.state.isTop) {
         this.setState({isTop})
         this.setState({navBG: isTop})
-        console.log(this.state.navBG)
-
       }
     })
   }
@@ -32,24 +30,28 @@ export default class Navbars extends Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" bg={this.state.navBG} expand="lg">
+        <Navbar fixed="top" style={{backgroundColor:this.state.navBG}} expand="lg">
           <Navbar.Brand>
             <img
               src={IH_Logo}
               width="55"
               height="55"
               className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              alt="IH Logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+          <Navbar.Collapse>
+            <Nav className="ml-auto">
               <Nav.Link onClick={this.scrollToTop}>Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#experience">Experiences</Nav.Link>
+              <Nav.Link active="active" href="#experience">Experiences</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="#blog">Blog</Nav.Link>
+              <Nav.Link onSelect={() => scroll.scrollTo('Blog', {
+    smooth: true,
+    offset: -70,
+    duration: 500,
+})} href="#blog">Blog</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
               <Nav.Link href={Pdf}>Resume</Nav.Link>
               {/* <NavDropdown title="Photography" id="basic-nav-dropdown">
@@ -62,7 +64,7 @@ export default class Navbars extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <nav className="nav" id="navbar">
+        {/* <nav className="nav" id="navbar">
           <div className="nav-content">
             <img
               src={IH_Logo}
@@ -127,7 +129,7 @@ export default class Navbars extends Component {
               <ResumePDF />
             </ul>
           </div>
-        </nav>
+        </nav> */}
       </div>
     );
   }

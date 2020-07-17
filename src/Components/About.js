@@ -6,7 +6,7 @@ export default class extends Component {
         return (
             <div>
                 <div>
-                <p style={{float:"left"}}><img src={ProfilePic} style={{height:"200px", width:"200px", border:"1px"}} /></p>
+                <img src={ProfilePic} style={{float:"left", height:"200px", width:"200px", border:"1px"}}/>
                     <h5 style={{ margin: 0 }}>Idan Hershcovich</h5>
                     <h6 >Computer Science graduate with a game development concentration. </h6>
                 </div>
